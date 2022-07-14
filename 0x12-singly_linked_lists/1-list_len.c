@@ -1,13 +1,8 @@
-/**
- * @file 1-list_len.c
- * @author Muhabeid (muhabeid@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2022-04-21
- * 
- * @copyright Copyright (c) 2022
+/*
+ * File: 1-list_len.c
  * 
  */
+
 #include "lists.h"
 
 /**

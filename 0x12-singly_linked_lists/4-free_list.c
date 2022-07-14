@@ -1,29 +1,24 @@
-/**
- * @file 4-free_list.c
- * @author Muhabeid (muhabeid@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2022-04-21
- * 
- * @copyright Copyright (c) 2022
+/*
+ * File: 4-free_list.c
  * 
  */
-#include <stdlib.h>
+
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * free_list - frees a linked list
- * @head: list_t list to be freed
+ * free_list - Frees a list_t list.
+ * @head: A pointer to the list_t list.
  */
 void free_list(list_t *head)
 {
-	list_t *temp;
+	list_t *tmp;
 
 	while (head)
 	{
-		temp = head->next;
+		tmp = head->next;
 		free(head->str);
 		free(head);
-		head = temp;
+		head = tmp;
 	}
 }

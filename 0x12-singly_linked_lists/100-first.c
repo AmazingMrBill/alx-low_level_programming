@@ -1,13 +1,8 @@
-/**
- * @file 100-first.c
- * @author Muhabeid (muhabeid@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2022-04-21
- * 
- * @copyright Copyright (c) 2022
+/*
+ * File: 100-first.c
  * 
  */
+
 #include <stdio.h>
 
 void __attribute__((constructor)) hare(void);
@@ -18,6 +13,6 @@ void __attribute__((constructor)) hare(void);
  */
 void hare(void)
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
