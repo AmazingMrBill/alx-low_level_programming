@@ -1,2 +1,1 @@
-Singly list
-nice job!!!
+Singly list nice job!!!
